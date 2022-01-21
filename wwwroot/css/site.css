@@ -1,0 +1,76 @@
+html {
+  font-size: 14px;
+}
+
+h5{
+    color:white;
+}
+hr{
+    padding:10px;
+    color:peru;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+.MyHeadDiv{
+    margin-top:30px;
+    border:2px solid peru;
+    background-color:black;
+    text-align:center;
+}
+body {
+  margin-bottom: 60px;
+  background-image:url(/lib/Assets/RockBackground.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:lightgray;
+}
+.MyContainer
+{
+    border:3px solid red;
+    background-color:#000;
+}
+.goldPic{
+    height:50px;
+    width:80px;
+    float:right;
+    margin-right:10px;
+}
+.StashPic{
+    height:200px;
+    width:400px;
+    margin-left:2%;
+}
+
+.WaypointPic {
+    height: 200px;
+    width: 200px;
+    float:right;
+    margin-right: 15px;
+}
+.RedEm{
+    color:red;
+}
+.HomeText{
+    max-width:80vw;
+}
+
+
+
+
+
+
+
+/*Large Screens*/
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .StashPic {
+        height: 200px;
+        width: 400px;
+        margin-left: 35%;
+    }
+}
