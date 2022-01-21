@@ -61,6 +61,14 @@ namespace D2R_Encampent.Controllers
         {
             return View();
         }
+        public IActionResult SkillInfo()
+        {
+            return View();
+        }
+        public IActionResult CastInfo()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
