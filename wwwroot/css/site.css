@@ -20,11 +20,11 @@ html {
     text-align:center;
 }
 body {
-  margin-bottom: 60px;
-  background-image:url(/lib/Assets/RockBackground.jpg);
-  background-repeat:no-repeat;
-  background-size:cover;
-  color:lightgray;
+    margin-bottom: 60px;
+    background-image: url(/lib/Assets/RockBackground.jpg);
+    background-size: contain;
+    background-repeat:round;
+    color: lightgray;
 }
 .MyContainer
 {
@@ -121,6 +121,10 @@ body {
     align-items: center;
 }
 
+/*================= Shrines and wells ===============================*/
+.TablePic{
+    max-width:100px;
+}
 
 
 
